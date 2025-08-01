@@ -110,5 +110,6 @@ loadMoreBtn.addEventListener('click', async () => {
       showLoadMoreButton();
     } else {
       hideLoadMoreButton();
-    }
+  }
+  //test2
 });
