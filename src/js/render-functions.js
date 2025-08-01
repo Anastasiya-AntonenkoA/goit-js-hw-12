@@ -75,21 +75,13 @@ export function clearGallery() {
   galleryContainer.innerHTML = '';
 }
 
-// export function showLoader() {
-//   document.querySelector('.loader').classList.remove('is-hidden');
-// }
-
 export function showLoader() {
   document.querySelector('.loader').classList.remove('is-hidden');
   document.querySelector('.load-more').classList.add('is-hidden');
 }
 
-// export function hideLoader() {
-//   document.querySelector('.loader').classList.add('is-hidden');
-// }
 export function hideLoader() {
   document.querySelector('.loader').classList.add('is-hidden');
-  document.querySelector('.load-more').classList.remove('is-hidden');
 }
 
 export function showLoadMoreButton() {

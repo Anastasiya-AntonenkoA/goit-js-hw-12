@@ -105,4 +105,10 @@ loadMoreBtn.addEventListener('click', async () => {
   } finally {
     hideLoader();
   }
+
+  if (currentPage * perPage < totalHits) {
+      showLoadMoreButton();
+    } else {
+      hideLoadMoreButton();
+    }
 });
